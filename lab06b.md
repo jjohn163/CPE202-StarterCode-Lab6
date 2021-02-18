@@ -14,11 +14,6 @@ The key process in QuickSort is partition(). The goal of the partition() functio
 
 The following link is helpful - Comparison Sorting Visualizations: https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
 
-Your goal for this lab is to write code that implements the QuickSort sorting algorithm, and observe the behavior using two different pivot selection techniques: 1) Always selecting the first element and 2) selecting the median element from the first, middle and last elements.
-
-To compare the behavior across runs, you will need to incorporate a mechanism to count the comparisons that occur during the sorting operation.
-
-As in the previous sorting lab, you should include your test cases within the same module as the QuickSort functions, and record the results. You will submit your code (quicksort.py) and a pdf of the following table, with your observations recorded.
 
 |   | **Number of QuickSort Comparisons** | **Number of QuickSort Comparisons** |
 | --- | --- | --- |
