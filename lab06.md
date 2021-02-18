@@ -22,11 +22,7 @@ Comparison Sorting Visualizations: https://www.cs.usfca.edu/~galles/visualizatio
 
 Your goal for this lab is to implement simple versions of Insertion Sort - **insertion\_sort(alist)**, Selection Sort - **selection\_sort(alist),** that will sort an array of integers and **count the number of comparisons**. Include your test cases as lists in the same file as your functions. Each function takes as input a list of integers, sorts the list counting the comparisons at the same time, **and returns the number of comparisons**. After the function completes, the " **alist**" should be sorted.
 
-Submit three files – **insertion\_sort.py** , **selection\_sort.py and the pdf described below** to Canvas.
 
-The worst-case runtime complexity is O(n^2) for selection and insertion sort. Why? Write out the summation that represents the number of comparisons. You should write test cases that illustrate that the number of comparisons is O(n^2) and **include those testcases in your submissions to PolyLearn**. Note you will need to run test cases of different sizes to show that Insertion and Selection sort are O(n^2). To do this, plot the number of comparisons (y-axis) vs. the size of the list (x-axis). Since the plot is shaped like a parabola for selection and insertion sort this indicates that it is quadratic. In a separate file submitted as pdf, for each Insertion and Selection sort submit a table showing list size and number of comparisons from your test cases and a plot of that data.
 
 **Also include a comment with your test cases explaining why the testcases for the worst case are the worst case!**
 
-Note: There is a fundamental limit on how fast (on average) a comparison sort can be, namely
-O(n\*log n). We will discuss the reasons for this in class.
